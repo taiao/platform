@@ -1,0 +1,2 @@
+1. Get the application URL by running these commands:
+  kubectl get service --namespace {{ .Release.Namespace }} proxy-public -o jsonpath="{.status.loadBalancer.ingress[0].ip}"
