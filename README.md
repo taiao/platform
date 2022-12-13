@@ -4,7 +4,7 @@
 - microk8s
 
 # Deploy on [microk8s](https://microk8s.io/)
-## Install microk8s on Ubuntu
+
 ```bash
 # Install docker first
 sudo apt update
