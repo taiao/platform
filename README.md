@@ -42,6 +42,7 @@ microk8s helm3 dep up ./helm-chart
 microk8s helm3 install taiao ./helm-chart --render-subchart-notes
 ```
 
+You can access the platform through 10.0.0.100 with you browser now. The username and password are the same as your ubuntu account currently using. 
 
 # Known issues
 - [Python has to be 3.7 both in host and docker](https://issues.apache.org/jira/browse/FLINK-22517)
