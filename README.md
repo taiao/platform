@@ -39,7 +39,7 @@ microk8s helm3 dep up ./helm-chart
 
 ```bash
 # Deploy our project
-microk8s helm3 install taiao ./helm-chart --render-subchart-notes
+microk8s helm3 install taiao ./helm-chart --render-subchart-notes -f ./deployment/microk8s/config.yaml
 ```
 
 You can access the platform through 10.0.0.100 with you browser now. The username and password are the same as your ubuntu account currently using. 
